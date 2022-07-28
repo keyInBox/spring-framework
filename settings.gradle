@@ -35,6 +35,8 @@ include "spring-webmvc"
 include "spring-websocket"
 include "framework-bom"
 include "integration-tests"
+include 'spring-chimney'
+include 'chimney-spring'
 
 rootProject.name = "spring"
 rootProject.children.each {project ->
@@ -55,3 +57,5 @@ settings.gradle.projectsLoaded {
 		}
 	}
 }
+
+
